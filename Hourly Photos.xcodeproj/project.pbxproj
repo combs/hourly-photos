@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCFC8FF1AFBB6D60027FB5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC8FE1AFBB6D60027FB5B /* main.m */; };
+		ABCFC9021AFBB6D60027FB5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC9011AFBB6D60027FB5B /* AppDelegate.m */; };
+		ABCFC9051AFBB6D60027FB5B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC9041AFBB6D60027FB5B /* RootViewController.m */; };
+		ABCFC9081AFBB6D60027FB5B /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC9071AFBB6D60027FB5B /* DataViewController.m */; };
+		ABCFC90B1AFBB6D60027FB5B /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC90A1AFBB6D60027FB5B /* ModelController.m */; };
+		ABCFC90E1AFBB6D60027FB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC90C1AFBB6D60027FB5B /* Main.storyboard */; };
+		ABCFC9101AFBB6D60027FB5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC90F1AFBB6D60027FB5B /* Images.xcassets */; };
+		ABCFC9131AFBB6D60027FB5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC9111AFBB6D60027FB5B /* LaunchScreen.xib */; };
+		ABCFC91F1AFBB6D60027FB5B /* Hourly_PhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC91E1AFBB6D60027FB5B /* Hourly_PhotosTests.m */; };
+		ABCFC9331AFBB7040027FB5B /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC9321AFBB7040027FB5B /* InterfaceController.m */; };
+		ABCFC9361AFBB7040027FB5B /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFC9351AFBB7040027FB5B /* NotificationController.m */; };
+		ABCFC9381AFBB7040027FB5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC9371AFBB7040027FB5B /* Images.xcassets */; };
+		ABCFC93C1AFBB7040027FB5B /* Hourly Photos WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC93B1AFBB7040027FB5B /* Hourly Photos WatchKit App.app */; };
+		ABCFC9441AFBB7040027FB5B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC9421AFBB7040027FB5B /* Interface.storyboard */; };
+		ABCFC9461AFBB7040027FB5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCFC9451AFBB7040027FB5B /* Images.xcassets */; };
+		ABCFC9491AFBB7040027FB5B /* Hourly Photos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABCFC92C1AFBB7040027FB5B /* Hourly Photos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABCFC9191AFBB6D60027FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCFC8F11AFBB6D50027FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFC8F81AFBB6D50027FB5B;
+			remoteInfo = "Hourly Photos";
+		};
+		ABCFC93D1AFBB7040027FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCFC8F11AFBB6D50027FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFC93A1AFBB7040027FB5B;
+			remoteInfo = "Hourly Photos WatchKit App";
+		};
+		ABCFC9471AFBB7040027FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCFC8F11AFBB6D50027FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFC92B1AFBB7040027FB5B;
+			remoteInfo = "Hourly Photos WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABCFC9501AFBB7040027FB5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABCFC9491AFBB7040027FB5B /* Hourly Photos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABCFC8F91AFBB6D60027FB5B /* Hourly Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hourly Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFC8FD1AFBB6D60027FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCFC8FE1AFBB6D60027FB5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABCFC9001AFBB6D60027FB5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABCFC9011AFBB6D60027FB5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABCFC9031AFBB6D60027FB5B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ABCFC9041AFBB6D60027FB5B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ABCFC9061AFBB6D60027FB5B /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		ABCFC9071AFBB6D60027FB5B /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		ABCFC9091AFBB6D60027FB5B /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		ABCFC90A1AFBB6D60027FB5B /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		ABCFC90D1AFBB6D60027FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABCFC90F1AFBB6D60027FB5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABCFC9121AFBB6D60027FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABCFC9181AFBB6D60027FB5B /* Hourly PhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hourly PhotosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFC91D1AFBB6D60027FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCFC91E1AFBB6D60027FB5B /* Hourly_PhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hourly_PhotosTests.m; sourceTree = "<group>"; };
+		ABCFC92C1AFBB7040027FB5B /* Hourly Photos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hourly Photos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFC92F1AFBB7040027FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCFC9301AFBB7040027FB5B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ABCFC9311AFBB7040027FB5B /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		ABCFC9321AFBB7040027FB5B /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		ABCFC9341AFBB7040027FB5B /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		ABCFC9351AFBB7040027FB5B /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		ABCFC9371AFBB7040027FB5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABCFC93B1AFBB7040027FB5B /* Hourly Photos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hourly Photos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFC9411AFBB7040027FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCFC9431AFBB7040027FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ABCFC9451AFBB7040027FB5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCFC8F61AFBB6D50027FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC9151AFBB6D60027FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC9291AFBB7040027FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCFC8F01AFBB6D50027FB5B = {
+			isa = PBXGroup;
+			children = (
+				ABCFC8FB1AFBB6D60027FB5B /* Hourly Photos */,
+				ABCFC91B1AFBB6D60027FB5B /* Hourly PhotosTests */,
+				ABCFC92D1AFBB7040027FB5B /* Hourly Photos WatchKit Extension */,
+				ABCFC93F1AFBB7040027FB5B /* Hourly Photos WatchKit App */,
+				ABCFC8FA1AFBB6D60027FB5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCFC8FA1AFBB6D60027FB5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC8F91AFBB6D60027FB5B /* Hourly Photos.app */,
+				ABCFC9181AFBB6D60027FB5B /* Hourly PhotosTests.xctest */,
+				ABCFC92C1AFBB7040027FB5B /* Hourly Photos WatchKit Extension.appex */,
+				ABCFC93B1AFBB7040027FB5B /* Hourly Photos WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCFC8FB1AFBB6D60027FB5B /* Hourly Photos */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC9001AFBB6D60027FB5B /* AppDelegate.h */,
+				ABCFC9011AFBB6D60027FB5B /* AppDelegate.m */,
+				ABCFC9031AFBB6D60027FB5B /* RootViewController.h */,
+				ABCFC9041AFBB6D60027FB5B /* RootViewController.m */,
+				ABCFC9061AFBB6D60027FB5B /* DataViewController.h */,
+				ABCFC9071AFBB6D60027FB5B /* DataViewController.m */,
+				ABCFC9091AFBB6D60027FB5B /* ModelController.h */,
+				ABCFC90A1AFBB6D60027FB5B /* ModelController.m */,
+				ABCFC90C1AFBB6D60027FB5B /* Main.storyboard */,
+				ABCFC90F1AFBB6D60027FB5B /* Images.xcassets */,
+				ABCFC9111AFBB6D60027FB5B /* LaunchScreen.xib */,
+				ABCFC8FC1AFBB6D60027FB5B /* Supporting Files */,
+			);
+			path = "Hourly Photos";
+			sourceTree = "<group>";
+		};
+		ABCFC8FC1AFBB6D60027FB5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC8FD1AFBB6D60027FB5B /* Info.plist */,
+				ABCFC8FE1AFBB6D60027FB5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCFC91B1AFBB6D60027FB5B /* Hourly PhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC91E1AFBB6D60027FB5B /* Hourly_PhotosTests.m */,
+				ABCFC91C1AFBB6D60027FB5B /* Supporting Files */,
+			);
+			path = "Hourly PhotosTests";
+			sourceTree = "<group>";
+		};
+		ABCFC91C1AFBB6D60027FB5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC91D1AFBB6D60027FB5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCFC92D1AFBB7040027FB5B /* Hourly Photos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC9311AFBB7040027FB5B /* InterfaceController.h */,
+				ABCFC9321AFBB7040027FB5B /* InterfaceController.m */,
+				ABCFC9341AFBB7040027FB5B /* NotificationController.h */,
+				ABCFC9351AFBB7040027FB5B /* NotificationController.m */,
+				ABCFC9371AFBB7040027FB5B /* Images.xcassets */,
+				ABCFC92E1AFBB7040027FB5B /* Supporting Files */,
+			);
+			path = "Hourly Photos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ABCFC92E1AFBB7040027FB5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC92F1AFBB7040027FB5B /* Info.plist */,
+				ABCFC9301AFBB7040027FB5B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCFC93F1AFBB7040027FB5B /* Hourly Photos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC9421AFBB7040027FB5B /* Interface.storyboard */,
+				ABCFC9451AFBB7040027FB5B /* Images.xcassets */,
+				ABCFC9401AFBB7040027FB5B /* Supporting Files */,
+			);
+			path = "Hourly Photos WatchKit App";
+			sourceTree = "<group>";
+		};
+		ABCFC9401AFBB7040027FB5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFC9411AFBB7040027FB5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCFC8F81AFBB6D50027FB5B /* Hourly Photos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFC9221AFBB6D60027FB5B /* Build configuration list for PBXNativeTarget "Hourly Photos" */;
+			buildPhases = (
+				ABCFC8F51AFBB6D50027FB5B /* Sources */,
+				ABCFC8F61AFBB6D50027FB5B /* Frameworks */,
+				ABCFC8F71AFBB6D50027FB5B /* Resources */,
+				ABCFC9501AFBB7040027FB5B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCFC9481AFBB7040027FB5B /* PBXTargetDependency */,
+			);
+			name = "Hourly Photos";
+			productName = "Hourly Photos";
+			productReference = ABCFC8F91AFBB6D60027FB5B /* Hourly Photos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCFC9171AFBB6D60027FB5B /* Hourly PhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFC9251AFBB6D60027FB5B /* Build configuration list for PBXNativeTarget "Hourly PhotosTests" */;
+			buildPhases = (
+				ABCFC9141AFBB6D60027FB5B /* Sources */,
+				ABCFC9151AFBB6D60027FB5B /* Frameworks */,
+				ABCFC9161AFBB6D60027FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCFC91A1AFBB6D60027FB5B /* PBXTargetDependency */,
+			);
+			name = "Hourly PhotosTests";
+			productName = "Hourly PhotosTests";
+			productReference = ABCFC9181AFBB6D60027FB5B /* Hourly PhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABCFC92B1AFBB7040027FB5B /* Hourly Photos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFC94D1AFBB7040027FB5B /* Build configuration list for PBXNativeTarget "Hourly Photos WatchKit Extension" */;
+			buildPhases = (
+				ABCFC9281AFBB7040027FB5B /* Sources */,
+				ABCFC9291AFBB7040027FB5B /* Frameworks */,
+				ABCFC92A1AFBB7040027FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCFC93E1AFBB7040027FB5B /* PBXTargetDependency */,
+			);
+			name = "Hourly Photos WatchKit Extension";
+			productName = "Hourly Photos WatchKit Extension";
+			productReference = ABCFC92C1AFBB7040027FB5B /* Hourly Photos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		ABCFC93A1AFBB7040027FB5B /* Hourly Photos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFC94A1AFBB7040027FB5B /* Build configuration list for PBXNativeTarget "Hourly Photos WatchKit App" */;
+			buildPhases = (
+				ABCFC9391AFBB7040027FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hourly Photos WatchKit App";
+			productName = "Hourly Photos WatchKit App";
+			productReference = ABCFC93B1AFBB7040027FB5B /* Hourly Photos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCFC8F11AFBB6D50027FB5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Chris Combs";
+				TargetAttributes = {
+					ABCFC8F81AFBB6D50027FB5B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					ABCFC9171AFBB6D60027FB5B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = ABCFC8F81AFBB6D50027FB5B;
+					};
+					ABCFC92B1AFBB7040027FB5B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					ABCFC93A1AFBB7040027FB5B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ABCFC8F41AFBB6D50027FB5B /* Build configuration list for PBXProject "Hourly Photos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCFC8F01AFBB6D50027FB5B;
+			productRefGroup = ABCFC8FA1AFBB6D60027FB5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCFC8F81AFBB6D50027FB5B /* Hourly Photos */,
+				ABCFC9171AFBB6D60027FB5B /* Hourly PhotosTests */,
+				ABCFC92B1AFBB7040027FB5B /* Hourly Photos WatchKit Extension */,
+				ABCFC93A1AFBB7040027FB5B /* Hourly Photos WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCFC8F71AFBB6D50027FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFC90E1AFBB6D60027FB5B /* Main.storyboard in Resources */,
+				ABCFC9131AFBB6D60027FB5B /* LaunchScreen.xib in Resources */,
+				ABCFC9101AFBB6D60027FB5B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC9161AFBB6D60027FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC92A1AFBB7040027FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFC9381AFBB7040027FB5B /* Images.xcassets in Resources */,
+				ABCFC93C1AFBB7040027FB5B /* Hourly Photos WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC9391AFBB7040027FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFC9441AFBB7040027FB5B /* Interface.storyboard in Resources */,
+				ABCFC9461AFBB7040027FB5B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCFC8F51AFBB6D50027FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFC9081AFBB6D60027FB5B /* DataViewController.m in Sources */,
+				ABCFC9021AFBB6D60027FB5B /* AppDelegate.m in Sources */,
+				ABCFC90B1AFBB6D60027FB5B /* ModelController.m in Sources */,
+				ABCFC8FF1AFBB6D60027FB5B /* main.m in Sources */,
+				ABCFC9051AFBB6D60027FB5B /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC9141AFBB6D60027FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFC91F1AFBB6D60027FB5B /* Hourly_PhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFC9281AFBB7040027FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFC9361AFBB7040027FB5B /* NotificationController.m in Sources */,
+				ABCFC9331AFBB7040027FB5B /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCFC91A1AFBB6D60027FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFC8F81AFBB6D50027FB5B /* Hourly Photos */;
+			targetProxy = ABCFC9191AFBB6D60027FB5B /* PBXContainerItemProxy */;
+		};
+		ABCFC93E1AFBB7040027FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFC93A1AFBB7040027FB5B /* Hourly Photos WatchKit App */;
+			targetProxy = ABCFC93D1AFBB7040027FB5B /* PBXContainerItemProxy */;
+		};
+		ABCFC9481AFBB7040027FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFC92B1AFBB7040027FB5B /* Hourly Photos WatchKit Extension */;
+			targetProxy = ABCFC9471AFBB7040027FB5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABCFC90C1AFBB6D60027FB5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFC90D1AFBB6D60027FB5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABCFC9111AFBB6D60027FB5B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFC9121AFBB6D60027FB5B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ABCFC9421AFBB7040027FB5B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFC9431AFBB7040027FB5B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABCFC9201AFBB6D60027FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCFC9211AFBB6D60027FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCFC9231AFBB6D60027FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hourly Photos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABCFC9241AFBB6D60027FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hourly Photos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABCFC9261AFBB6D60027FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hourly PhotosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hourly Photos.app/Hourly Photos";
+			};
+			name = Debug;
+		};
+		ABCFC9271AFBB6D60027FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hourly PhotosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hourly Photos.app/Hourly Photos";
+			};
+			name = Release;
+		};
+		ABCFC94B1AFBB7040027FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Hourly_Photos_WatchKit_Extension;
+				INFOPLIST_FILE = "Hourly Photos WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		ABCFC94C1AFBB7040027FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Hourly_Photos_WatchKit_Extension;
+				INFOPLIST_FILE = "Hourly Photos WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		ABCFC94E1AFBB7040027FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hourly Photos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABCFC94F1AFBB7040027FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hourly Photos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCFC8F41AFBB6D50027FB5B /* Build configuration list for PBXProject "Hourly Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFC9201AFBB6D60027FB5B /* Debug */,
+				ABCFC9211AFBB6D60027FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCFC9221AFBB6D60027FB5B /* Build configuration list for PBXNativeTarget "Hourly Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFC9231AFBB6D60027FB5B /* Debug */,
+				ABCFC9241AFBB6D60027FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCFC9251AFBB6D60027FB5B /* Build configuration list for PBXNativeTarget "Hourly PhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFC9261AFBB6D60027FB5B /* Debug */,
+				ABCFC9271AFBB6D60027FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCFC94A1AFBB7040027FB5B /* Build configuration list for PBXNativeTarget "Hourly Photos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFC94B1AFBB7040027FB5B /* Debug */,
+				ABCFC94C1AFBB7040027FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCFC94D1AFBB7040027FB5B /* Build configuration list for PBXNativeTarget "Hourly Photos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFC94E1AFBB7040027FB5B /* Debug */,
+				ABCFC94F1AFBB7040027FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCFC8F11AFBB6D50027FB5B /* Project object */;
+}
